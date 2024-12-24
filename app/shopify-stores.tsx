@@ -3,14 +3,14 @@
 import Image from "next/image";
 
 const stores = [
-  { image: "/images/project2.jpg", name: "Event 1", location: "New York" },
-  { image: "/images/project1.jpg", name: "Event 2", location: "Los Angeles" },
-  { image: "/images/project4.jpg", name: "Event 3", location: "Chicago" },
-  { image: "/images/project5.jpg", name: "Event 4", location: "San Francisco" },
-  { image: "/images/project2.jpg", name: "Event 5", location: "Miami" },
-  { image: "/images/project1.jpg", name: "Event 6", location: "Dallas" },
-  { image: "/images/project4.jpg", name: "Event 7", location: "Seattle" },
-  { image: "/images/project5.jpg", name: "Event 8", location: "Boston" },
+  { image: "/images/project1.jpg", name: "Event 1", location: "New York" },
+  { image: "/images/project2.jpg", name: "Event 2", location: "Los Angeles" },
+  { image: "/images/project3.jpg", name: "Event 3", location: "Chicago" },
+  { image: "/images/project4.jpg", name: "Event 4", location: "San Francisco" },
+  { image: "/images/project5.jpg", name: "Event 5", location: "Miami" },
+  { image: "/images/project6.jpg", name: "Event 6", location: "Dallas" },
+  { image: "/images/project7.jpg", name: "Event 7", location: "Seattle" },
+  { image: "/images/project8.jpg", name: "Event 8", location: "Boston" },
 ];
 
 const ShopifyStores = () => {

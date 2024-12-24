@@ -8,38 +8,42 @@ const plans = [
   {
     index: 0,
     name: "Basic Plan",
-    image: "/images/staff10.jpg",
-    heading: "Start your journey with essential features.",
+    image: "/images/career1.jpg",
+    heading: "Hospitality Professionals",
     description:
-      "Get a fully responsive design with quick turnaround times and reliable development support for your basic needs.",
+      "Join our team of waitstaff, bartenders, and storekeepers. Be part of leading events in the hospitality sector.",
     button: "Apply Now",
+    href: "/apply/basic", // Unique link for Basic Plan
   },
   {
     index: 1,
     name: "Premium Plan",
-    image: "/images/staff9.jpg",
-    heading: "Scale up with advanced tools and design.",
+    image: "/images/career2.jpg",
+    heading: "Brand Representatives",
     description:
-      "Perfect for startups looking to create a strong online presence with custom designs and scalable solutions.",
+      "Become a promoter, host, or ambassador for exciting brands. Expand your horizons and join glamorous events today",
     button: "Apply Now",
+    href: "/apply/premium", // Unique link for Premium Plan
   },
   {
     index: 2,
     name: "Enterprise Plan",
-    image: "/images/staff4.jpg",
-    heading: "Achieve your business goals effortlessly.",
+    image: "/images/career3.jpg",
+    heading: "Experienced Event Experts",
     description:
-      "Tailored for businesses that need dedicated support, unlimited revisions, and a fully optimized website for conversions.",
+      "Have 3+ years in events? Apply for project-based roles in staging, operations, or marketing with top companies",
     button: "Apply Now",
+    href: "/apply/enterprise", // Unique link for Enterprise Plan
   },
   {
     index: 3,
     name: "Custom Plan",
-    image: "/images/staff10.jpg",  // Fixed missing image path
-    heading: "Your vision, our expertise, limitless potential.",
+    image: "/images/career4.jpg",
+    heading: "Event Enthusiasts",
     description:
-      "Work with us to create a completely custom solution designed specifically for your business and unique requirements.",
+      "Looking for opportunities in registration, ticketing, crowd control, or guiding? Apply to join the event industry now",
     button: "Apply Now",
+    href: "/apply/custom", // Unique link for Custom Plan
   },
 ];
 
@@ -78,7 +82,7 @@ const Career = () => {
                     <h2 className="text-xl font-semibold mb-2">{plan.heading}</h2>
                     <p className="text-sm mb-4">{plan.description}</p>
                     <Link
-                      href="/apply"
+                      href={plan.href} // Dynamically use the unique link for each plan
                       className="rounded-full py-2 px-6 bg-white border-2 border-gray-600 text-gray-600 hover:bg-transparent hover:text-white transition-all"
                     >
                       {plan.button}

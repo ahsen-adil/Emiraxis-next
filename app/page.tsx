@@ -75,10 +75,10 @@ export default function Home() {
         </p>
 
         <Link
-          href={"/book"}
+          href={"/contact"}
           className="cursor-pointer flex items-center justify-center border rounded-full w-48 p-2  mx-auto my-6 text-white "
         >
-          Book a call
+          Book a Meeting
         </Link>
 
         <div className="w-full pt-20">
